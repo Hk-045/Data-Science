@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    /* CSS to align forms using flexbox */
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      align-items: center;
+      background-color:lightblue;
+      
+    }
+    form {
+      margin: 0 10px; /* Add some spacing between forms */
+      border: 1px solid #8f8a8a; /* Add border for visual separation */
+      padding: 20px;
+      width:300px;
+      height:20px;
+      
+    }
+  </style>
+
+<body>
+    <div class="form-container">
+    <h1>Registration Form:</h1>
+    <form action="/register" method="POST">
+        <label for="Student_name">Student name:</label>
+        <input type="text" placeholder="Student Name"
+        name="Student_name" id="Student_name">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Father_name">Father name:</label>
+        <input type="text" placeholder="Father name"
+        name="Father_name" id="Father_name">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Mother_name">Mother name:</label>
+        <input type="text" placeholder="Mother name"
+        name="Mother_name" id="Mother_name">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Phone_number">Phone number:</label>
+        <input type="tel" placeholder="Phone number"
+        name="Phone_number" id="Phone_number">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Email">Email:</label>
+        <input type="email" placeholder="Email"
+        name="Email" id="Email">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Date_of_birth">Date of birth:</label>
+        <input type="date" placeholder="Date of birth"
+        name="Date_of_birth" id="Date_of_birth">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Address">Address:</label>
+        <input type="text" placeholder="Address"
+        name="Address" id="Address">
+    </form><br>
+
+    <form action="/register" method="POST" >
+        <label for="Blood_Group">Blood Group:</label>
+        <select id="bloodGroup" name="Blood_Group">
+          <option value="" selected disabled></option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+        </select>
+    </form><br>
+
+   
+    <form action="/register" method="POST">
+        <label for="Department">Department:</label>
+        <input type="text" placeholder="Department"
+        name="Department" id="Department">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Course">Course:</label>
+        <input type="text" placeholder="Course"
+        name="Course" id="Course">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <label for="Password">Password:</label>
+        <input type="password" placeholder="Password"
+        name="Password" id="Password">
+    </form><br>
+
+    <form action="/register" method="POST">
+        <button type="submit">Register</button>
+    </form><br>
+
+    
+
+    </div>
+
+</body>
+</html>
